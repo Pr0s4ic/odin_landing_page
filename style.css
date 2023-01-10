@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    height: 4em;
+    padding: 0 5em;
+}
+
+header h1 {
+    color: white;
+    padding: 2em 1em;
+    cursor: pointer;
+}
+
+header h1:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+    padding: 2em 1em;
+}
+
+.options a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}   
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    height: 25em;
+}
+
+.hero-text button {
+    background: black;
+    color: white;
+    border: 0.2em solid black;
+    padding: 1em 1.5em;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}
+
+.hero-img {
+    background: url(images/mahdi-bafande-Oy6vsJzp4ZA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    width: 30em;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    background-color: black;
+    color: white;
+    height: 30em;
+}
+
+.box-container {
+    display: flex;
+    gap: 2em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.info-img {
+    border: 0.2em solid white;
+    height: 12em;
+    width: 12em;
+}
+
+.info1 {
+    background: url(images/mahdi-bafande-4XHzO_UVmF4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info2 {
+    background: url(images/mahdi-bafande-_eCqyDwv5Yg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info3 {
+    background: url(images/mahdi-bafande-Co0Bc9qsgBw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info4 {
+    background: url(images/mahdi-bafande-itC2NsZlPvY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15em;
+}
+
+.quote {
+    font-size: 2em;
+    font-style: italic;   
+}
+
+.from {
+    font-weight: 700;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    height: 12em;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    height: 8em;
+    background-color: black;
+    color: white;
+    padding: 2em 5em;
+}
+
+.call button {
+    border: 0.2em solid white;
+    background-color: white;
+    padding: 1em 1.5em;
+    cursor: pointer;
+}
+
+.call button:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 0.75em;
+    font-style: italic;
+    height: 5em;
+}
